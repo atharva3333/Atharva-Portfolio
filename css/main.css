@@ -300,6 +300,7 @@ section.skills {
 
 section.skills h1 {
   text-align: center;
+  margin-left: 2rem;
 }
 
 section.skills .skillset {
@@ -349,6 +350,10 @@ section.connect {
   text-align: center;
 }
 
+section.connect h1 {
+  margin-left: 2rem;
+}
+
 section.connect .links {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -391,6 +396,13 @@ section.connect .links .link:hover {
   section.hero h1 {
     font-size: 2rem;
   }
+  section.projects a .button {
+    font-size: 1.4rem;
+    width: 200px;
+    height: 70px;
+    margin-top: 2rem;
+    font-family: "Bayon", sans-serif;
+  }
   section.projects .project-list {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -407,7 +419,10 @@ section.connect .links .link:hover {
             align-items: center;
   }
   section.projects .project-list .card {
-    width: 90%;
+    width: 100%;
+  }
+  section.projects .project-list .card .card-button:hover {
+    display: none;
   }
   section.about .about-me {
     -ms-grid-columns: 100%;
@@ -434,6 +449,15 @@ section.connect .links .link:hover {
 @media only screen and (max-width: 435px) {
   section.projects {
     text-align: center;
+  }
+  section.projects .project-list .card .card-button {
+    left: 17%;
+  }
+  section.projects .project-list .card .project-links {
+    font-size: 1rem;
+  }
+  section.about {
+    text-align: justify;
   }
   section.about p.about-text {
     font-size: 1rem;

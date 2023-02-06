@@ -274,6 +274,7 @@ section.skills{
 
     h1{
         text-align: center;
+        margin-left: 2rem;
     }
    
     .skillset{
@@ -319,6 +320,10 @@ section.skills{
 section.connect{
     margin: 2rem auto;
     text-align: center;
+
+    h1{
+        margin-left: 2rem;
+    }
 
     .links{
         display: flex;
@@ -371,6 +376,19 @@ section.connect{
     }
 
     section.projects {
+
+
+
+        a{
+            .button{
+                font-size: 1.4rem;
+
+                width: 200px;
+                height: 70px;
+                margin-top: 2rem;
+                font-family: "Bayon", sans-serif;
+            }
+        }
         
         .project-list {
             display: flex;
@@ -379,7 +397,16 @@ section.connect{
             align-items: center;
 
             .card {
-                width: 90%;
+                width: 100%;
+
+                .card-button{
+                    &:hover{
+                        
+                            display: none;
+                            
+                        
+                    }
+                }
 
                
             }
@@ -420,9 +447,23 @@ section.connect{
 @media only screen and (max-width: 435px) {
     section.projects{
         text-align: center;
+
+    
+
+        .project-list{
+            .card{
+
+                .card-button{
+                    left: 17%;
+                }
+                .project-links{
+                    font-size: 1rem;
+                }
+            }
+        }
     }
     section.about {
-        
+        text-align: justify;
         p.about-text {
             font-size: 1rem;
         }
