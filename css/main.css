@@ -432,6 +432,9 @@ section.connect .links .link:hover {
 }
 
 @media only screen and (max-width: 435px) {
+  section.projects {
+    text-align: center;
+  }
   section.about p.about-text {
     font-size: 1rem;
   }
