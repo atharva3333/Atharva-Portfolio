@@ -125,11 +125,6 @@ nav .menu-items {
   display: flex;
 }
 
-.container {
-  max-width: 1200px;
-  margin: auto;
-}
-
 section.hero {
   margin: 1rem auto;
   height: 100vh;

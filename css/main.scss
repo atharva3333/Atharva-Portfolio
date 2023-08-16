@@ -19,6 +19,11 @@ body {
       }
 }
 
+.container {
+    width: 1400px;
+    margin: auto;
+}
+
 
 
 h1 {
@@ -81,7 +86,8 @@ nav {
     color: whitesmoke;
     height: 4rem;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    
 
     .brand {
         margin: 1.3rem 1rem;
@@ -110,10 +116,7 @@ nav {
     }
 }
 
-.container {
-    max-width: 1200px;
-    margin: auto;
-}
+
 
 section.hero {
     margin: 1rem auto;
