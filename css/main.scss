@@ -272,6 +272,41 @@ section.about {
     }
 }
 
+section.work-experience{
+    margin: 2rem auto;
+    h1{
+        text-align: center;
+        margin-left: 2rem;
+    }
+
+    .experience{
+        max-width: 900px;
+        margin: 2rem auto;
+        color: #fff;
+       
+        .title{
+
+            h3{
+                font-size: 1.5rem;
+            }
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 1rem;
+            
+
+            a{
+                
+                color: #fff;
+            }
+        }
+        .duration{
+           
+
+        }
+    }
+}
+
 section.skills{
     margin: 2rem auto;
 

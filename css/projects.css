@@ -19,6 +19,11 @@ body::-webkit-scrollbar-thumb {
   border-radius: 100px;
 }
 
+.container {
+  width: 1400px;
+  margin: auto;
+}
+
 h1 {
   color: #fa58b6;
   font-size: 3rem;
@@ -93,8 +98,9 @@ nav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 nav .brand {
@@ -287,6 +293,15 @@ section.about p.phone {
 
 section.about p.phone span {
   color: #fa58b6;
+}
+
+section.work-experience {
+  margin: 2rem auto;
+}
+
+section.work-experience h1 {
+  text-align: center;
+  margin-left: 2rem;
 }
 
 section.skills {
