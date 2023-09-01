@@ -20,7 +20,7 @@ body {
 }
 
 .container {
-    width: 1400px;
+    max-width: 1400px;
     margin: auto;
 }
 
@@ -300,10 +300,7 @@ section.work-experience{
                 color: #fff;
             }
         }
-        .duration{
-           
-
-        }
+        
     }
 }
 

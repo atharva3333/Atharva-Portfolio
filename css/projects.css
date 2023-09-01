@@ -304,6 +304,33 @@ section.work-experience h1 {
   margin-left: 2rem;
 }
 
+section.work-experience .experience {
+  max-width: 900px;
+  margin: 2rem auto;
+  color: #fff;
+}
+
+section.work-experience .experience .title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 1rem;
+}
+
+section.work-experience .experience .title h3 {
+  font-size: 1.5rem;
+}
+
+section.work-experience .experience .title a {
+  color: #fff;
+}
+
 section.skills {
   margin: 2rem auto;
 }
